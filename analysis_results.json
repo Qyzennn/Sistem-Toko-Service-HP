@@ -1,0 +1,25 @@
+{
+  "correlation": {
+    "account_compromise_risk": 1.0,
+    "failed_login_attempts": 0.874938039184638,
+    "failed_2fa_attempts": 0.28435612847449615,
+    "login_attempts_last_7days": 0.21997741245824287,
+    "user_id": 0.08198285987435834,
+    "unique_ip_addresses": 0.07805266267045795,
+    "last_login_days_ago": -0.011360684145732613,
+    "account_status_encoded": -0.012948332894629329,
+    "account_age_days": -0.056130580628934564
+  },
+  "regression_coef": {
+    "failed_login_attempts": 3.0400118554831628,
+    "login_attempts_last_7days": 0.36575133228656675,
+    "failed_2fa_attempts": 4.974091284280151,
+    "account_age_days": 0.0010269738210604302,
+    "account_status_encoded": -0.5514080074873599
+  },
+  "regression_intercept": 0.005385992787338978,
+  "r2_test": 0.9411441678959885,
+  "rmse_test": 4.423523164934153,
+  "t_stat": 29.749250341587043,
+  "p_value": 1.5615002091232388e-112
+}
